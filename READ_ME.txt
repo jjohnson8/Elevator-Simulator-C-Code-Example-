@@ -1,4 +1,1 @@
-The complier that I Used to write the C code is CodeBlocks. 
-
-My code takes only one customer at time to enter and leave the elevator. The simulation ends at the end of the 
-49th person. 
+In this project of the Elevator, it is simulated by using threads to model the person and the elevator behavior. All the threads are coordinated using various semaphores and its operations. One thread for person and one thread for the elevator. The person has its own array list to hold 7 people and the also the floor that the person chooses randomly gets assigned to the person in the array list. I started the project with creating the simulation for one person to enter and leave the elevator and then checked for 2 people to enter and leave the elevator. 
